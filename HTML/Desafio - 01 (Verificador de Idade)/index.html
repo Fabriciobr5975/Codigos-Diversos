@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <!------ Área do corpo do HTML ------>
+  <body>
+    <!----- Início do Main ----->
+    <main id="principal">
+      <section id="secao">
+        <!----- Cabeçalho ----->
+        <span class="titulo">
+          <p>Verificador de Idade</p>
+        </span>
+
+        <!------- Divisões para cada parte do formulário ------->
+        <div class="container">
+          <div id="anoNascimento">
+            <p>
+              Ano de Nascimento:
+              <input
+                type="number"
+                name="txtDataNascimento"
+                id="txtDataNascimento" 
+                placeholder="Digite o ano que nasceu"
+              />
+            </p>
+          </div>
+
+          <div id="sexo">
+            <input type="radio" id="masculino" name="genero" value="Masculino" />
+            <label for="masculino">Masculino</label><br />
+            <input type="radio" id="feminino" name="genero" value="Feminino" />
+            <label for="feminino">Feminino</label><br />
+          </div>
+
+          <div id="botao">
+            <input
+              type="button"
+              value="Verificar"
+              onclick="mostrarMensagem()"
+            />
+          </div>
+          <div id="mensagem"></div>
+          <div id="imagens"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

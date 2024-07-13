@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(50deg, #00dbde 0%, #fc00ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#btnIncluir {
+    background-color: #27643c;
+    border: 2px solid #27643c;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+
+}
+
+#btnMostarTarefas {
+    background-color: #27643c;
+    border: 2px solid #27643c;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top:10px;
+}
+
+
+.tarefasIncluidas {
+    list-style-type: none;
+    /* Remover as marcações de bullets */
+    padding: 0;
+}
+
+.descricaoTarefa  {
+    border-color: #1c1d1dd1;
+    border-radius: 5px;
+    width: 92%;
+    padding: 5px;
+}
+
+/*border-color: #2ecc71;*/
+.inputTarefa i.fa-check-circle {
+    border-color: #2ecc71;
+    visibility: visible;
+}
+
+#mostrarTarefas{
+    background-color: #27643c;
+    border: 2px solid #27643c;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top:10px;   
+}

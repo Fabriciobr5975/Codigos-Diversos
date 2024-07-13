@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <script src="login.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="tituloPrincipal">Fazer Login</h1>
+      <form id="formulario">
+        <input
+          type="email"
+          name="inputEmail"
+          id="inputEmail"
+          placeholder="Digite o seu E-Mail aqui"
+        />
+        <input
+          type="password"
+          name="inputSenha"
+          id="inputSenha"
+          placeholder="Digite a sua Senha aqui"
+        />
+        <button id="btnLogin" onclick="efetuarLogin()">
+          Fazer Login
+        </button>
+      </form>
+      <div class="cadastro">
+        <div>
+          <p class="textoLinks">
+            Ainda não tem seu cadastro? Faça um agora mesmo!:
+            <a class="links" href="Cadastro.html">Clicando aqui</a>
+          </p>
+        </div>
+        <div>
+          <p class="textoLinks">
+            Para continuar sem login e acessar a loja:
+            <a class="links" href="vitrine.html">Clique aqui</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

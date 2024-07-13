@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="carrinho.css" />
+    <script src="carrinho.js"></script>
+    <title>Carrinho de Compras</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Seu Carrinho</h1>
+        <div class="perfilUsu">
+          <div id="imgPerfil"></div>
+          <div id="nomePerfil"></div>
+          <button id="voltarParaVitrine" class="botaoVoltar">Voltar</button>
+          <button id="limparCarrinho" class="botaoCarrinho" onclick="limparCarrinho()">Limpar Carrinho</button>
+        </div>
+      </header>
+      <section>
+        <h2>Nossa Loja Virtual</h2>
+      </section>
+      <section>
+        <div>
+          <h2>Confira nossos produtos!</h2>
+          <div class="produtos">
+            <table>
+              <tr class="vitrine">
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Valor Unitário</th>
+                <th>Quantidade</th>
+                <th>Valor Total</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="listaProdutos">
+        <div class="produtos">
+          <table>
+            <tr class="vitrine">
+            </tr>
+          </table>
+          <div> 
+          </div>
+        </div>
+      </section>
+      <section id="vlrTotal">
+        <div class="totalProdutos">
+          <table>
+            <tr class="valorTotal">
+            </tr>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+

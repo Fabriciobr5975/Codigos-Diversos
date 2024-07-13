@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href=" https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+    <!-- Formulário para adicionar tarefas -->
+    <form id="formulario">
+        <input type="text" class="descricaoTarefa" id="descricaoTarefa" placeholder="Digite uma nova tarefa">
+        <i class="fa fa-exclamation-circle" style="font-size:24px;color:red"></i>
+        <button id="btnIncluir" onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    </form>
+        <button id="mostrarTarefas"><a href="MostarTarefas.html">Abrir a Lista de Tarefas </a></button>
+</div>
+</body>
+</html>

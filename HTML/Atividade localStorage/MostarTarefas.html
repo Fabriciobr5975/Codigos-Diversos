@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytleMostrarTarefas.css">
+    <script src="script.js"></script>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Tarefas</h2> 
+        <button id="abrirTelaPrincipal"><a href="index.html">Adicionar Novas Tarefas</a></button>
+        <button id="abrirTarefas" onclick="listarTarefas()">Abrir Tarefas</button>
+        <button id="limparLocalStorage" onclick="limparlocalStorage()">Limpar LocalStorage</button>
+        <table id="tabelaTarefas">
+        <thead>
+            <tr>
+                <th>Nome da Tarefa</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="listaTarefas"></tbody>
+    </table>
+    </div>
+</body>
+</html>

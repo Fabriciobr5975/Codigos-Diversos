@@ -1,5 +1,5 @@
 ## Repositório Codigos-Diversos 💻
-Repositório simples, com alguns códigos que eu fiz, e que gostaria de compartilhar. Muito dos códigos presentes aqui foram de exercicios, desafios e algumas provas, que foram passado pelos professores da minha graduação, porém eu também coloquei alguns códigos que eu fiz por Hobby.  
+<p align="justify">Repositório simples, com alguns códigos que eu fiz, e que gostaria de compartilhar. Muito dos códigos presentes aqui foram de exercicios, desafios e algumas provas, que foram passado pelos professores da minha graduação, porém eu também coloquei alguns códigos que eu fiz por Hobby.</p>  
  
 ## Objetivo 🎯
 - Mostrar a minha `Evolução`, principalmente na linguagem `Java`
